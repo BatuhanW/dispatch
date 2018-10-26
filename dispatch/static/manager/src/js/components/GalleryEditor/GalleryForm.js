@@ -196,7 +196,8 @@ class GalleryFormComponent extends React.Component {
         return (
           <div
             style={{
-              display: 'inline-block'
+              display: 'inline-block',
+              position: 'relative'
             }}
             key={id}>
             <Popover
